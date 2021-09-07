@@ -24,6 +24,19 @@ to enhance the contrast of the input picture, the parameters of histogram are se
   ![image](https://user-images.githubusercontent.com/78803926/132361250-b4c5f15c-babe-4ff6-bf36-5d0b0eb540a6.png)
   
   
+- Image after HS operation  
+  ![image](https://user-images.githubusercontent.com/78803926/132365226-cf7f56fd-c3c6-41b3-a50f-0aa6fbac6be1.png)  
+  From the desired histogram, we could discover that it has a tendency to make the bright area much brighter and the dark region darker. The distribution of intermediate color is relatively lower. As a consequence, the scheme would lead to a higher contrast in the processed picture.
+  
+- Table of transformation function to show the mapping from the input gray level r to the output gray level z  
+- In the table, the green columns represent the corresponding gray level for each input (0~255). It is obvious that some numbers are lost in the sequence in the green columns, which reflects the result of the sparser histogram. 
+  ![image](https://user-images.githubusercontent.com/78803926/132365547-68e0f63c-b9ea-4cc1-aee6-9d37017683c5.png)  
+   
+  To further discuss the Transformation function, we could plot the above figure.(x-axis : input, y-axis : output). Apparently, we could discover that the part in the frame with red dotted line is upper than the diagonal line, which would make the color within the range brighter than before. Adversely, the part in the blue frame would let the color in the range become darker.  
+  
+  ![image](https://user-images.githubusercontent.com/78803926/132365759-af0214fd-554c-4ba4-a0da-23f1c4b33446.png)
+
+
 - 
 
 
