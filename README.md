@@ -36,7 +36,3 @@ to enhance the contrast of the input picture, the parameters of histogram are se
   
   ![image](https://user-images.githubusercontent.com/78803926/132365759-af0214fd-554c-4ba4-a0da-23f1c4b33446.png)
 
-
-- 
-
-
