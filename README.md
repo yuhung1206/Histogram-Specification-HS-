@@ -1,12 +1,18 @@
 # Histogram-Specification(HS)
 Apply histogram-specification method to achieve contrast enhancement.
 
-In this study,
+  
+## Instructions  
+ - HS operation can be customized in the section(2) in the program file for other purpose & utilization  
+ ![image](https://user-images.githubusercontent.com/78803926/132471498-30b5fc6b-30ee-4e86-a455-93bfa1d639c3.png)
+  
+ - In this study,
 to enhance the contrast of the input picture, the parameters of histogram are self-defined as:  
 
 ![image](https://user-images.githubusercontent.com/78803926/132358896-2edc356d-14fa-4cd3-8771-e8e9e59e3d62.png)
 ![image](https://user-images.githubusercontent.com/78803926/132361517-4690261a-a038-40ed-9d2a-448efe7f7316.png)
-
+  
+  
 
 ## Implementation process
   1. Calculate the PDF and CDF of original data
@@ -16,7 +22,7 @@ to enhance the contrast of the input picture, the parameters of histogram are se
   5. Export those new pixels as an image
 
 
-### Results
+### Theory and Experimental Results
 - original and output histograms (after HS operation)  
 
   From the two pictures below, we could directly find that the output histogram is parser than the original histogram. Apart from   that, we could also discover that more pixels concentrate near zero gray level in the output histogram than in the original one, which would probably make the dark area darker. Additionally, the increase of pixels also take place around 200~250 gray level, revealing that the bright area would possibly become brighter. I suppose that the effects are closely associated with the desired histogram.
