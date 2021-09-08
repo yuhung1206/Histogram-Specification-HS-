@@ -16,7 +16,7 @@ to enhance the contrast of the input picture, the parameters of histogram are se
 
 ## Implementation process
   1. Calculate the PDF and CDF of original data
-  2. According to the desired histogram, construct the desired PDF and CDF
+  2. According to the desired histogram, construct the customized PDF and CDF
   3. With the two CDFs, we could build the mapping between input ![image](https://user-images.githubusercontent.com/78803926/132360354-eff12a65-9838-4501-bb6b-2c899f845758.png) and output ![image](https://user-images.githubusercontent.com/78803926/132360394-9fcc451b-0597-4e98-a0bb-eba947fc59d6.png) via ![image](https://user-images.githubusercontent.com/78803926/132360467-7a482538-de74-4055-85a9-229f79da84f2.png)
   4. Utilize the mapping function and the original data to obtain the output data
   5. Export those new pixels as an image
