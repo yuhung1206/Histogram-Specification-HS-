@@ -47,7 +47,7 @@ to enhance the contrast of the input picture, the parameters of histogram are se
    
   To further discuss the Transformation function, we could plot the above figure.(x-axis : input, y-axis : output). Apparently, we could discover that the part in the frame with red dotted line is upper than the diagonal line, which would make the color within the range brighter than before. Adversely, the part in the blue frame would let the color in the range become darker.  
   
-  ![image](https://user-images.githubusercontent.com/78803926/132365759-af0214fd-554c-4ba4-a0da-23f1c4b33446.png)
+
   
 
 
