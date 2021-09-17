@@ -12,6 +12,13 @@ to enhance the contrast of the input picture, the parameters of histogram are se
 ![image](https://user-images.githubusercontent.com/78803926/132358896-2edc356d-14fa-4cd3-8771-e8e9e59e3d62.png)
 ![image](https://user-images.githubusercontent.com/78803926/132361517-4690261a-a038-40ed-9d2a-448efe7f7316.png)
   
+## Program  
+
+  |Program |function|
+  |-----|--------|
+  |`HS_BW.m`|HS operation toward Black & White image |
+  |`HS_RGB.m` |HS operation toward RGB image   |   
+  |`HS_func.m`          | function call by `HS_RGB.m`|
   
 
 ## Implementation process
@@ -42,4 +49,5 @@ to enhance the contrast of the input picture, the parameters of histogram are se
   
   ![image](https://user-images.githubusercontent.com/78803926/132365759-af0214fd-554c-4ba4-a0da-23f1c4b33446.png)
   
- **Other image processing method please refer -->** https://github.com/yuhung1206/Image-Processing
+
+
